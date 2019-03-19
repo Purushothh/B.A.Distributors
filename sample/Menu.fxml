@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="332.0" prefWidth="614.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Button layoutX="239.0" layoutY="88.0" mnemonicParsing="false" onAction="#deliveryClicked" prefHeight="46.0" prefWidth="131.0" text="Delivery">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="25.0" layoutY="88.0" mnemonicParsing="false" onAction="#viewInventoryClicked" prefHeight="46.0" prefWidth="131.0" text="View Stock">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="454.0" layoutY="88.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="120.0" text="Invoices">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="25.0" layoutY="213.0" mnemonicParsing="false" onAction="#salesRepClicked" prefHeight="46.0" prefWidth="131.0" text="Sales Rep">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="239.0" layoutY="213.0" mnemonicParsing="false" onAction="#CustomersClicked" prefHeight="46.0" prefWidth="131.0" text="Customers">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="454.0" layoutY="213.0" mnemonicParsing="false" onAction="#employeeClicked" prefHeight="46.0" prefWidth="120.0" text="Employee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="184.0" layoutY="14.0" prefHeight="67.0" prefWidth="270.0" text="Welcome to the Main Menu" textFill="#f5f2f2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

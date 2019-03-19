@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EmployeeController">
+   <children>
+      <Button layoutX="424.0" layoutY="348.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="51.0" text="Back" />
+      <Label layoutX="255.0" layoutY="27.0" prefHeight="26.0" prefWidth="139.0" text="Employee section">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TableView layoutX="22.0" layoutY="76.0" prefHeight="272.0" prefWidth="368.0">
+        <columns>
+          <TableColumn prefWidth="72.0" text="Empl. Num" />
+          <TableColumn prefWidth="119.20001220703125" text="Name" />
+            <TableColumn prefWidth="80.79998779296875" text="Salary" />
+            <TableColumn prefWidth="100.0" text="Position" />
+        </columns>
+      </TableView>
+      <TextField layoutX="424.0" layoutY="111.0" prefHeight="26.0" prefWidth="146.0" promptText="Employee Number" />
+      <TextField layoutX="424.0" layoutY="158.0" prefHeight="26.0" prefWidth="146.0" promptText="Employee Name" />
+      <Button layoutX="457.0" layoutY="212.0" mnemonicParsing="false" onAction="#employeeStats" text="View Profile" />
+      <Button layoutX="475.0" layoutY="348.0" mnemonicParsing="false" onAction="#addemployeeClicked" text="Add Employee" textFill="#e81616" />
+   </children>
+</AnchorPane>
